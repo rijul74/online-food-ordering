@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order-Food</title>
+</head>
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="order.css">
+<body>
+    <h1 style="text-align: center;">Shopping Cart</h1>
+
+    <div class="container">
+        <div class="screen-togo">
+          <h2>To Go Menu</h2>
+          <ul class="menu-items">
+            <!--    Menu Item 1    -->
+            <li class="menu-item">
+              <img src="/static/images.jpg" alt="French Fries with Ketchup" class="menu-image">
+              <div class="menu-item-dets">
+                <p class="menu-item-heading">French Fries with Ketchup</p>
+                <p class="g-price">$2.23</p>
+              </div>
+              <button
+                class="add-button"
+                data-title="French Fies with Ketchup"
+                data-price="2.23">Add to Cart</button>
+            </li>
+            <!--    Menu Item 2    -->
+            <li class="menu-item">
+              <img src="/static/images (1).jpg" alt="Salmon and Vegetables" class="menu-image">
+              <div class="menu-item-dets">
+                <p class="menu-item-heading">Salmon and Vegetables</p>
+                <p class="g-price">$8.99</p>
+              </div>
+              <button
+                class="add-button"
+                data-title="Salmon and Vegetables"
+                data-price="8.99">Add to Cart</button>
+            </li>
+            <!--    Menu Item 3    -->
+            <li class="menu-item">
+              <img src="/static/download (1).jpg" alt="Spaghetti with Sauce" class="menu-image">
+              <div class="menu-item-dets">
+                <p class="menu-item-heading">Spaghetti with Sauce</p>
+                <p class="g-price">$7.89</p>
+              </div>
+              <button
+                class="add-button"
+                data-title="Spaghetti with Sauce"
+                data-price="7.89">Add to Cart</button>
+            </li>
+            <!--    Menu Item 4    -->
+            <li class="menu-item">
+              <img src="/static/dan-gold-4_jhDO54BYg-unsplash.jpg" alt="Tortellini" class="menu-image">
+              <div class="menu-item-dets">
+                <p class="menu-item-heading">Tortellini</p>
+                <p class="g-price">$8.99</p>
+              </div>
+              <button 
+                class="add-button"
+                data-title="Tortellini"
+                data-price="8.99"
+                >Add to Cart</button>
+            </li>
+            <!--    Menu Item 5    -->
+            <li class="menu-item">
+              <img src="/static/appy.jpg" alt="Chicken Salad" class="menu-image">
+              <div class="menu-item-dets">
+                <p class="menu-item-heading">Chicken Salad</p>
+                <p class="g-price">$5.75</p>
+              </div>
+              <button
+                class="add-button"
+                data-title="Chicken Salad"
+                data-price="5.75">Add to Cart</button>
+            </li>
+          </ul>
+        </div>
+        <div class="screen-cart">
+          <h2>Your Cart</h2>
+          <!--  Cart Items -->
+          <ul class="cart-items">
+          </ul>
+          
+          <div class="cart-math">
+            <p>Add items to cart</p>
+          </div>
+        </div>
+      </div>  
+</body>
+<script src="order.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> -->
+</html>
